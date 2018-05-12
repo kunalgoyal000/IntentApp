@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.intenttest.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Camera"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:id="@+id/camera1"
+            android:onClick="camera2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Browser"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:id="@+id/browser1"
+            android:onClick="browser2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SMS"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:id="@+id/sms1"
+            android:onClick="sms2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Mail"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:id="@+id/mail1"
+            android:onClick="mail2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contacts"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:id="@+id/contacts1"
+            android:onClick="contacts2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:id="@+id/phone1"
+            android:onClick="phone2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gallery"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:id="@+id/gallery1"
+            android:onClick="gallery2"/>
+
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:id="@+id/set1"
+        android:onClick="set2"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Something New-->"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:onClick="gallery1"/>
+
+</RelativeLayout>
